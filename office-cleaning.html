@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN GREEN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Clean Green">
+            </div>
+            <button class="menu-button" onclick="toggleMenu()">
+                <img src="images/menu-icon.png" alt="Menu">
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="services-nav">
+                        <a href="services.html">Services</a>
+                        <nav class="secondary-nav" id="secondaryNav">
+                            <ul>
+                                <li><a href="home-cleaning.html">Home Cleaning</a></li>
+                                <li><a href="office-cleaning.html">Office Cleaning</a></li>
+                                <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
+                                <li><a href="window-cleaning.html">Window Cleaning</a></li>
+                                <li><a href="pressure-cleaning.html">Pressure Cleaning</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="booking.html">Book Now</a></li>
+                    <li><a href="get-in-touch.html">Get In Touch</a></li>
+                    <li><a href="tel:0435151933" class="call-us-now">Call Us Now - 0435151933</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="scripts.js"></script>
+    
+    <div class="container">
+        <h1>Office Cleaning: Transforming Your Workspace for Maximum Productivity</h1>
+
+        <div class="content-container" style="text-align: center;">
+            <div>
+                <img src="images/clean-office.jpg" alt="Clean Office" style="width: 70%; margin: 0 auto;">
+            </div>
+        </div>
+
+        <p>Is your office starting to feel a little too cluttered? Papers piling up, dust settling in, and that mysterious coffee stain that just won’t go away? At <strong>Clean Green</strong>, we understand that a clean, organized workspace isn’t just about appearances—it’s about creating an environment where productivity and creativity can flourish.</p>
+
+        <h2>Why a Clean Office Matters</h2>
+
+        <p>A clean office does more than just look nice. It:</p>
+
+        <ul>
+            <li><strong>Boosts Productivity:</strong> Studies have shown that a clutter-free environment allows employees to focus better. Less distraction means more efficiency and output!</li>
+            <li><strong>Enhances Health & Well-being:</strong> Dust, allergens, and germs can build up in offices over time, leading to more sick days and lower morale. Regular cleaning helps maintain a healthier workplace.</li>
+            <li><strong>Creates a Professional Atmosphere:</strong> First impressions matter! A clean office presents professionalism to clients, partners, and even new hires.</li>
+        </ul>
+
+        <h2>Our Cleaning Services Tailored for You</h2>
+
+        <p>Whether you're a small startup or a large corporation, <strong>Clean Green</strong> has customizable office cleaning solutions to meet your unique needs. Our eco-friendly approach ensures that your office is not only spotless but also safe for the environment.</p>
+
+        <p>Here's what we offer:</p>
+
+        <ul>
+            <li><strong>Daily/Weekly Office Cleaning:</strong> Regular dusting, vacuuming, and sanitation to keep your workspace consistently fresh.</li>
+            <li><strong>Deep Cleaning:</strong> From scrubbing carpets to sanitizing high-touch surfaces, we make sure your office is in top shape.</li>
+            <li><strong>Specialty Cleaning:</strong> Need your breakroom or bathroom deep cleaned? We’ve got it covered.</li>
+        </ul>
+
+        <h2>Why Choose <em>Clean Green</em>?</h2>
+
+        <p>We’re not just another cleaning company. We pride ourselves on:</p>
+
+        <ul>
+            <li><strong>Eco-Friendly Products:</strong> All of our products are safe for the environment, and we take sustainability seriously.</li>
+            <li><strong>Flexible Scheduling:</strong> We work around your business hours to ensure there’s no disruption to your workflow.</li>
+            <li><strong>Trained Professionals:</strong> Our team is fully vetted and trained to provide top-tier cleaning services that you can trust.</li>
+        </ul>
+
+        <h2>Ready for a Cleaner, Greener Office?</h2>
+
+        <p>At <strong>Clean Green</strong>, we believe in creating spaces where employees can thrive. A clean office isn’t just a luxury—it’s a necessity for your business’s success.</p>
+
+        <p>Get in touch with us today for a free consultation, and let’s get started on transforming your workspace!</p>
+
+           <div class="form-container">
+    <h2>Get a Free Quote</h2>
+  <form action="https://getform.io/f/bvreonkb" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="enquiry">Type of Enquiry:</label>
+            <select id="enquiry" name="enquiry" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="House Cleaning">House Cleaning</option>
+                <option value="Office Cleaning">Office Cleaning</option>
+                <option value="Carpet Cleaning">Carpet Cleaning</option>
+                <option value="Window Cleaning">Window Cleaning</option>
+                <option value="Pressure Cleaning">Pressure Cleaning</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+        <footer class="footer">
+            <p>&copy; 2024 Clean Green. All rights reserved.</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </div>
+</body>
+</html>

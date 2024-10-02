@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN GREEN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Clean Green">
+            </div>
+            <button class="menu-button" onclick="toggleMenu()">
+                <img src="images/menu-icon.png" alt="Menu">
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="services-nav">
+                        <a href="services.html">Services</a>
+                        <nav class="secondary-nav" id="secondaryNav">
+                            <ul>
+                                <li><a href="home-cleaning.html">Home Cleaning</a></li>
+                                <li><a href="office-cleaning.html">Office Cleaning</a></li>
+                                <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
+                                <li><a href="window-cleaning.html">Window Cleaning</a></li>
+                                <li><a href="pressure-cleaning.html">Pressure Cleaning</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="booking.html">Book Now</a></li>
+                    <li><a href="get-in-touch.html">Get In Touch</a></li>
+                   <li><a href="tel:0435151933" class="call-us-now">Call Us Now - 0435151933</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="scripts.js"></script>
+	
+
+	<div class="container">
+    <h1>Carpet Cleaning: Refresh, Restore, Revitalize</h1>
+	
+	<div class="content-container" style="text-align: center;">
+    <div>
+        <img src="images/clean-Carpet.jpg" alt="Clean Carpet" style="width: 70%; margin: 0 auto;">
+    </div>
+</div>
+
+
+    <p>Let’s be real—carpets take a beating. From muddy shoes to spilled coffee, your carpets endure it all. At <strong>Clean Green</strong>, we’re not just about cleaning carpets; we’re about giving them new life. Say goodbye to stains, dirt, and allergens and hello to fresh, soft, and beautifully clean carpets.</p>
+
+    <h2>Why Your Carpets Deserve Some Love</h2>
+
+    <p>Your carpets do more than just cover your floors. They’re an investment in comfort and style. Here’s why giving your carpets a deep clean is a game changer:</p>
+
+    <ul>
+        <li><span class="highlight">Extend Carpet Life:</span> Regular cleaning helps your carpets last longer, keeping them plush and vibrant for years to come.</li>
+        <li><span class="highlight">Eliminate Allergens:</span> Dust, pet dander, and allergens get trapped deep in carpet fibers. We dig deep to leave your home fresh and allergen-free.</li>
+        <li><span class="highlight">Goodbye Stains, Hello Freshness:</span> Whether it’s red wine or coffee spills, we tackle the toughest stains with eco-friendly products that leave your carpets looking and smelling fresh.</li>
+    </ul>
+
+    <h2>What We Bring to the Table</h2>
+
+    <p>We know carpets, and we know how to treat them right. Here’s what you can expect from our carpet cleaning services:</p>
+
+    <ul>
+        <li><strong>Deep Steam Cleaning:</strong> Using cutting-edge technology, we remove dirt, grime, and bacteria from the deepest layers of your carpet.</li>
+        <li><strong>Stain Removal Experts:</strong> No more cringing at that stubborn stain! We have specialized solutions that target and remove even the toughest of stains.</li>
+        <li><strong>Deodorizing Treatment:</strong> We don’t just clean; we leave your carpets smelling fresh and revitalized, eliminating odors for good.</li>
+        <li><strong>Eco-Friendly Solutions:</strong> We care about your home and the planet. Our cleaning products are eco-friendly, safe for kids and pets, and incredibly effective.</li>
+    </ul>
+
+    <h2>Why Choose <em>Clean Green</em>?</h2>
+
+    <p>At <strong>Clean Green</strong>, we don’t just offer carpet cleaning services—we offer <em>next-level</em> cleaning experiences. Here’s why clients love us:</p>
+
+    <ul>
+        <li><strong>Eco-Conscious:</strong> Our green products are powerful but safe, protecting your family and the environment.</li>
+        <li><strong>Experienced Team:</strong> Our technicians are trained to handle any carpet, from delicate fibers to heavy-duty stains.</li>
+        <li><strong>Flexible Scheduling:</strong> We work around your lifestyle. Need us on a weekend or in the evening? No problem!</li>
+        <li><strong>Satisfaction Guaranteed:</strong> We won’t rest until your carpets are spotless and you’re 100% happy with the result.</li>
+    </ul>
+
+    <h2>Transform Your Carpets Today</h2>
+
+    <p>Your carpets deserve to look as fresh as the day you bought them. Whether it’s routine maintenance or a deep clean, <strong>Clean Green</strong> has you covered. Let us work our magic and leave your carpets looking brand new.</p>
+
+           <div class="form-container">
+    <h2>Get a Free Quote</h2>
+   <form action="https://getform.io/f/bvreonkb" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="enquiry">Type of Enquiry:</label>
+            <select id="enquiry" name="enquiry" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="House Cleaning">House Cleaning</option>
+                <option value="Office Cleaning">Office Cleaning</option>
+                <option value="Carpet Cleaning">Carpet Cleaning</option>
+                <option value="Window Cleaning">Window Cleaning</option>
+                <option value="Pressure Cleaning">Pressure Cleaning</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</div>
+	
+</body>
+</html>
+
+
+  <footer class="footer">
+        <p>&copy; 2024 Clean Green. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

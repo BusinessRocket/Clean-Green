@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN GREEN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Clean Green">
+            </div>
+            <button class="menu-button" onclick="toggleMenu()">
+                <img src="images/menu-icon.png" alt="Menu">
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="services-nav">
+                        <a href="services.html">Services</a>
+                        <nav class="secondary-nav" id="secondaryNav">
+                            <ul>
+                                <li><a href="home-cleaning.html">Home Cleaning</a></li>
+                                <li><a href="office-cleaning.html">Office Cleaning</a></li>
+                                <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
+                                <li><a href="window-cleaning.html">Window Cleaning</a></li>
+                                <li><a href="pressure-cleaning.html">Pressure Cleaning</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="booking.html">Book Now</a></li>
+                    <li><a href="get-in-touch.html">Get In Touch</a></li>
+                    <li><a href="tel:0435151933" class="call-us-now">Call Us Now - 0435151933</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Why Choose Clean Green?</h1>
+            <p>At <strong>Clean Green</strong>, we’re not just about cleaning – we’re about <em>eliminating</em> the grime with precision and power. Here’s why we’re the ultimate choice:</p>
+            <ul>
+                <li><strong>Eco-Friendly Swagger:</strong> We clean with green power, so your space looks rock and safe from chemicals.</li>
+                <li><strong>Pro-Level Crew:</strong> Our team brings the heat. Armed with skills and eco-friendly gear, we hit every job like a headliner at a sold-out show.</li>
+                <li><strong>Satisfaction Guaranteed:</strong> If it ain’t perfect, we’ll do an encore until it is. That’s how we roll.</li>
+                <li><strong>Rockstar Scheduling:</strong> Got a packed schedule? We’ve got the flexibility to match your rhythm.</li>
+            </ul>
+            <p>Clean Green is the eco-warrior you need to shred dirt and rock a spotless vibe. Ready for the ultimate clean?</p>
+
+           <div class="form-container">
+    <h2>Get a Free Quote</h2>
+   <form action="https://getform.io/f/bvreonkb" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="enquiry">Type of Enquiry:</label>
+            <select id="enquiry" name="enquiry" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="House Cleaning">House Cleaning</option>
+                <option value="Office Cleaning">Office Cleaning</option>
+                <option value="Carpet Cleaning">Carpet Cleaning</option>
+                <option value="Window Cleaning">Window Cleaning</option>
+                <option value="Pressure Cleaning">Pressure Cleaning</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Clean Green. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
